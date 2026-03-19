@@ -1,12 +1,11 @@
 .vs/
+.git/
 node_modules/
 dist/
 .env
 .env.*
-.vercel/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-.vercel

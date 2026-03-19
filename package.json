@@ -1,0 +1,21 @@
+{
+  "name": "the-food-books",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/write-version.mjs",
+    "dev": "vite",
+    "prebuild": "node scripts/write-version.mjs",
+    "build": "vite build",
+    "preview": "vite preview",
+    "pretest": "node scripts/write-version.mjs",
+    "test": "node scripts/smoke-test.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  }
+}
